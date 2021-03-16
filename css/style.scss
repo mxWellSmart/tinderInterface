@@ -72,6 +72,7 @@ body {
         // font-family: ProximaNova,sans-serif;
         font-weight: 600;
         text-transform: uppercase;
+        cursor: pointer;
     }
 }
 
@@ -114,6 +115,7 @@ body {
         text-transform: uppercase;
         font-weight: 800;
         border-radius: 3rem;
+        cursor: pointer;
     }
 }
 
@@ -168,7 +170,9 @@ hr.hline {
     // padding: 2rem 2rem;
     // width: 23.787rem;
     display: flex;
+    padding-bottom: 1.5rem;
     justify-content: space-between;
+    border-bottom: .1rem solid #d6d3d3;
 }
 
 .info-description {
@@ -180,6 +184,7 @@ hr.hline {
     &-title{
         font-size: 1.8rem;
         margin-bottom: 1.2rem;
+        text-transform: uppercase;
     }
     &-list{
 
@@ -197,5 +202,48 @@ hr.hline {
         & a:hover {
             color: #fd5068;
         }
+    }
+
+    &-social-media {
+        display: flex;
+        justify-content: space-around;
+
+        & span {
+            width: 4.8rem;
+        }
+    }
+}
+
+// .svg-logo{
+    
+// }
+.app-store {
+    display: flex;
+    align-self: baseline;
+    &-title {
+        margin-right: 1rem;
+        font-weight: bold;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        margin-top: .8rem;
+        height: 2.6rem;
+    }
+
+    &-btn{
+        margin-right: 1.3rem;
+        cursor:pointer;
+        border:none;
+        outline:none;
+        background:none;
+        padding-left: 2.4rem;
+        padding-right: 2.4rem;
+        border: 1px solid rgb(202, 198, 198);
+        border-radius: 2rem;
+        width: 9.8rem ;
+        height: 4.8rem ;
+    }
+
+    &-btn img {
+        
     }
 }
