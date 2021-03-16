@@ -72,6 +72,9 @@ body {
   background: linear-gradient(262deg, #ff7854, #fd267d);
   color: white;
 }
+.tinder-nav-btn__signin:hover svg {
+  fill: currentColor;
+}
 
 .tinder-logo {
   height: 3.5rem;

@@ -79,6 +79,9 @@ body {
             background: linear-gradient(262deg,#ff7854,#fd267d);
             color: white;
         }
+        &:hover svg{
+            fill: currentColor;
+        }
     }
     
 }
