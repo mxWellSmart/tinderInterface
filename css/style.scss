@@ -34,11 +34,12 @@ body {
     top:0;
     width: 100%;
     display: flex;
+    position: relative;
     justify-content: space-between;
     padding: 3rem 1.5rem;
     align-self: center;
     color: white;
-    background-color: black;
+    background:linear-gradient(180deg,black,transparent );
 
 }
 .tinder-nav-btn {
