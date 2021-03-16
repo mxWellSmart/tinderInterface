@@ -36,7 +36,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 3rem 1.5rem;
-    // height: 8.2rem;
     align-self: center;
     color: white;
     background-color: black;
@@ -165,8 +164,38 @@ hr.hline {
 }
 
 .tinder-info {
-    margin: 1rem 6rem;
+    margin: 4rem 0;
     // padding: 2rem 2rem;
     // width: 23.787rem;
-    // padding-right: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-description {
+    width: 23.787rem;
+    padding-right: 1.2rem;
+}
+.info {
+
+    &-title{
+        font-size: 1.8rem;
+        margin-bottom: 1.2rem;
+    }
+    &-list{
+
+    }
+    &-list-item{
+        list-style: none;
+
+        & a {
+            text-decoration: none;
+            color: #2c2c2c;
+            font-size: 1.6rem;
+            font-weight: 100;
+            line-height: 3.2rem;
+        }
+        & a:hover {
+            color: #fd5068;
+        }
+    }
 }

@@ -147,5 +147,30 @@ hr.hline {
 }
 
 .tinder-info {
-  margin: 1rem 6rem;
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-description {
+  width: 23.787rem;
+  padding-right: 1.2rem;
+}
+
+.info-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+.info-list-item {
+  list-style: none;
+}
+.info-list-item a {
+  text-decoration: none;
+  color: #2c2c2c;
+  font-size: 1.6rem;
+  font-weight: 100;
+  line-height: 3.2rem;
+}
+.info-list-item a:hover {
+  color: #fd5068;
 }/*# sourceMappingURL=style.css.map */
