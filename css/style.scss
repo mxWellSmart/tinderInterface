@@ -220,6 +220,8 @@ hr.hline {
 .app-store {
     display: flex;
     align-self: baseline;
+    margin-bottom: 1.5rem;
+
     &-title {
         margin-right: 1rem;
         font-weight: bold;
@@ -246,4 +248,46 @@ hr.hline {
     &-btn img {
         
     }
+}
+
+.tinder-moto {
+    width: 100%;
+    border-bottom: .1rem solid #d6d3d3;
+    &-sum {
+        margin-bottom: 1rem;
+        color: #5c5c5c;
+        font-size: 1.4rem;
+    }
+}
+
+.tinder-legal-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.tinder-policy {
+
+    & a {
+        text-decoration: none;
+        color: #5c5c5c;
+        font-size: 1.4rem;
+    }
+    & a > * {
+        font-size: 1.4rem;
+    }
+    & a:hover {
+        color: #fd5068;
+    }
+}
+.tinder-copyright {
+    color: #5c5c5c;
+    font-size:  1.4rem;
+}
+
+.slash {
+    font-size: 1.5rem;
+    margin: 0 .8rem;
 }
