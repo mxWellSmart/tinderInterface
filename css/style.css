@@ -148,6 +148,20 @@ body {
   color: #5C5C5C;
   font-size: 1.6rem;
   line-height: 1.3125;
+  font-family: ProximaNova, sans-serif;
+}
+
+.item-container {
+  position: relative;
+}
+
+.quote-simbol {
+  position: absolute;
+  right: 2%;
+  font-size: 14.2rem;
+  line-height: 1;
+  color: #ececec;
+  font-family: ProximaNova, sans-serif;
 }
 
 hr.hline {
